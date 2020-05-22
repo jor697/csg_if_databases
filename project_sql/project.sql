@@ -14,6 +14,36 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `defenders`
+--
+
+DROP TABLE IF EXISTS `defenders`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `defenders` (
+  `icon` text NOT NULL,
+  `name` text NOT NULL,
+  `primary weapons` text NOT NULL,
+  `secondary weapons` text NOT NULL,
+  `ability` text NOT NULL,
+  `gadgets` text NOT NULL,
+  `speed/armor rating` text NOT NULL,
+  `difficulty rating` text NOT NULL,
+  `CTU` text NOT NULL,
+  PRIMARY KEY (`name`(28))
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `defenders`
+--
+
+LOCK TABLES `defenders` WRITE;
+/*!40000 ALTER TABLE `defenders` DISABLE KEYS */;
+/*!40000 ALTER TABLE `defenders` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -24,4 +54,4 @@
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-03-19 14:02:21
+-- Dump completed on 2020-05-22 12:36:52
