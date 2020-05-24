@@ -16,6 +16,37 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `attackers`
+--
+
+DROP TABLE IF EXISTS `attackers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `attackers` (
+  `icon` text NOT NULL,
+  `name` text NOT NULL,
+  `primary weapons` text NOT NULL,
+  `secondary weapons` text NOT NULL,
+  `ability` text NOT NULL,
+  `gadgets` text NOT NULL,
+  `speed/armor rating` text NOT NULL,
+  `difficulty rating` text NOT NULL,
+  `CTU` text NOT NULL,
+  PRIMARY KEY (`name`(28))
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `attackers`
+--
+
+LOCK TABLES `attackers` WRITE;
+/*!40000 ALTER TABLE `attackers` DISABLE KEYS */;
+INSERT INTO `attackers` VALUES ('images/ash','Ash','R4-C, G36C','5.7 USG, M45 Meusoc','Breaching Rounds','Breach Charge, Stun Grenade','3 Speed, 1 Armor','Difficulty Level 2','SWAT'),('images/blackbeard','Blackbeard','MK17 CQB, SR-25','D-50','Rifle Shield','Breach Charge, Stun Grenade','2 Speed, 2 Armor','Difficulty Level 1','NAVY SEAL'),('images/blitz','Blitz','G52-Tactical Shield','P12','Flash Shield','Smoke Grenade, Breach Charge','2 Speed, 2 Armor','Difficulty Level 3','GSG9'),('images/buck','Buck','C8-SFW, CAMRS','MK1 9MM','Skeleton Key','Frag Grenade, Stun Grenade','2 Speed, 2 Armor','Difficulty Level 1','JTF2'),('images/capitao','Capitão','PARA-308, M249','PRB92','Tactical Crossbow','Claymore, Stun Grenade','3 Speed, 1 Armor','Difficulty Level 2','BOPE'),('images/fuze','Fuze','AK-12, 6P41, Ballistic Shield','PMM, GSH-18','Cluster Charge','Breach Charge, Smoke Grenade','1 Speed, 3 Armor','Difficulty Level 1','Spetznas'),('images/glaz','Glaz','OTS-03','PMM, GSH-18','Flip Sight','Smoke Grenade, Frag Grenade','2 Speed, 2 Armor','Difficulty Level 1','Spetznas'),('images/iq','IQ','AUG A2, 552 Commando, G8A1','P12','Electronics Detector','Breach Charge, Claymore','3 Speed, 1 Armor','Difficulty Level 3','GSG9'),('images/montagne','Montagne','Extendable Shield','P9, LFP586','Extendable Shield','Stun Grenade, Smoke Grenade','1 Speed, 3 Armor','Difficulty Level 3','GIGN'),('images/sledge','Sledge','L85A2, M590A1','P226 MK 25, SMG-11','Tactical Breaching Hammer','Frag Grenade, Stun Grenade','2 Speed, 2 Armor','Difficulty Level 1','SAS'),('images/thatcher','Thatcher','AR33, L85A2, M590A1','P226 MK 25','EMP Grenade','Breach Charge, Claymore','2 Speed, 2 Armor','Difficulty Level 1','SAS'),('images/thermite','Thermite','556XI, M1014','5.7 USG, M45 Meusoc','Exothermic Charge','Claymore, Stun Grenade','2 Speed, 2 Armor','Difficulty Level 1','SWAT'),('images/twitch','Twitch','F2, 417, SG-CQB','P9, LFP586','Shock Drones','Breach Charge, Claymore','2 Speed, 2 Armor','Difficulty Level 2','GIGN');
+/*!40000 ALTER TABLE `attackers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `defenders`
 --
 
@@ -55,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-05-23 12:54:47
+-- Dump completed on 2020-05-24 12:53:08
