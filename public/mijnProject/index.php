@@ -19,7 +19,8 @@ $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $datab
             <a href='Defenders.php'><img class='center-fit' src='images/R6S.png' width=100%  height= auto></a>
         </div>
         <h1>Most popular operators</h1>
-</body>
+        <?php require('Most.php');?>
+    </body>
 </html>
 
 

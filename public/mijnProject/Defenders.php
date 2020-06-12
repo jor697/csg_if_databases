@@ -20,7 +20,7 @@ $operators=$_GET["operator"]
 
     <body>
         <div class="roster">
-            <img src='images/kapkan.png' height=100px width=100px>
+            <a href='Defenders.php'><img src='images/kapkan.png' height=100px width=100px></a>
             <img src='images/tachanka.png' height=100px width=100px>
             <img src='images/bandit.png' height=100px width=100px>
             <img src='images/jager.png' height=100px width=100px>
