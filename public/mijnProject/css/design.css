@@ -49,3 +49,7 @@ body {
 #Header a {
     color: white;
 }
+
+.plaatje {
+    overflow:hidden;
+}
