@@ -6,6 +6,7 @@ if (!$DBverbinding) {
 }
 else {
 }
+$operators=$_GET["operator"]
 ?>
 
 <html>
@@ -19,34 +20,34 @@ else {
 
     <body>
         <div class="roster">
-            <img src='images/kapkan.png'>
-            <img src='images/tachanka.png'>
-            <img src='images/bandit.png'>
-            <img src='images/jager.png'>
-            <img src='images/rook.png'>
-            <img src='images/doc.png'>
-            <img src='images/pulse.png'>
-            <img src='images/castle.png'>
-            <img src='images/smoke.png'>
-            <img src='images/mute.png'>
-            <img src='images/frost.png'>
-            <img src='images/valkyrie.png'>
-            <img src='images/caveira.png'>
-            <img src='images/echo.png'>
-            <img src='images/mira.png'>
-            <img src='images/lesion.png'>
-            <img src='images/ela.png'>
-            <img src='images/vigil.png'>
-            <img src='images/alibi.png'>
-            <img src='images/maestro.png'>
-            <img src='images/clash.png'>
-            <img src='images/kaid.png'>
-            <img src='images/mozzie.png'>
-            <img src='images/warden.png'>
-            <img src='images/goyo.png'>
-            <img src='images/wamai.png'>
-            <img src='images/oryx.png'>
-            <img src='images/melusi.png'>
+            <img src='images/kapkan.png' height=100px width=100px>
+            <img src='images/tachanka.png' height=100px width=100px>
+            <img src='images/bandit.png' height=100px width=100px>
+            <img src='images/jager.png' height=100px width=100px>
+            <img src='images/rook.png' height=100px width=100px>
+            <img src='images/doc.png' height=100px width=100px>
+            <img src='images/pulse.png' height=100px width=100px>
+            <img src='images/castle.png' height=100px width=100px>
+            <img src='images/smoke.png' height=100px width=100px>
+            <img src='images/mute.png' height=100px width=100px>
+            <img src='images/frost.png' height=100px width=100px>
+            <img src='images/valkyrie.png' height=100px width=100px>
+            <img src='images/caveira.png' height=100px width=100px>
+            <img src='images/echo.png' height=100px width=100px>
+            <img src='images/mira.png' height=100px width=100px>
+            <img src='images/lesion.png' height=100px width=100px>
+            <img src='images/ela.png' height=100px width=100px>
+            <img src='images/vigil.png' height=100px width=100px>
+            <img src='images/alibi.png' height=100px width=100px>
+            <img src='images/maestro.png' height=100px width=100px>
+            <img src='images/clash.png' height=100px width=100px>
+            <img src='images/kaid.png' height=100px width=100px>
+            <img src='images/mozzie.png' height=100px width=100px>
+            <img src='images/warden.png' height=100px width=100px>
+            <img src='images/goyo.png' height=100px width=100px>
+            <img src='images/wamai.png' height=100px width=100px>
+            <img src='images/oryx.png' height=100px width=100px>
+            <img src='images/melusi.png' height=100px width=100px>
         </div>
     </body>
 
