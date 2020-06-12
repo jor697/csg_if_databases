@@ -1,11 +1,11 @@
 <html>
     <div class="Most" id="Most">
         <ul>
-            <li><a href="index.php">Six-Info</a></li>
-            <li><a href="Basic_information.php">Basic information</a></li>
-            <li><a href="Attackers.php">Attackers</a></li>
-            <li><a href="Defenders.php">Defenders</a></li>
-            <li><a href="About_us.php">About us</a></li>
+            <li><a href="Defenders.php"><img src="images/jager.png"></a></li>
+            <li><a href="Defenders.php"><img src="images/doc.png"></a></li>
+            <li><a href="Defenders.php"><img src="images/caveira.png"></a></li>
+            <li><a href="Attackers.php"><img src="images/jackal.png" width=100px height=100px></a></li>
+            <li><a href="Defenders.php"><img src="images/lesion.png" width=100px height=100px></a></li>
         </ul>
     </div>
 </html>

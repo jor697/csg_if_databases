@@ -59,3 +59,28 @@ h1 {
 .plaatje {
     overflow:hidden;
 }
+
+.Most {
+  padding: 10px 16px;
+  background: rgb(67, 74, 84);
+  color: #f1f1f1;
+}
+
+#Most ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+#Most li {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color:white
+    padding-top: 20px;
+    padding-left: 150px;
+}
+#Most li:first-child {
+    padding-left: 0px;
+}
