@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL & ~E_NOTICE);
 require('php/database.php');
+require('Header.php');
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
 if (!$DBverbinding) {
 }
@@ -27,7 +28,7 @@ else {
     </head>
 
     <body style="background-color:rgb(67, 74, 84)">
-        <div class="roster" id='roster'>
+        <div class="roster" id='roster' style='float:left;'>
         <ul>
             <li><a href='Defenders.php'><img src='images/kapkan.png' height=100px width=100px></a>
             <img src='images/tachanka.png' height=100px width=100px></li>
@@ -59,6 +60,7 @@ else {
             <img src='images/melusi.png' height=100px width=100px></li>
         </ul>    
         </div>
+        <div style="width: 0px; border: 3px solid rgb(47, 54, 64);; border-radius: 50px; float:left; height:1450px; margin:10px; margin-top:15px"></div>
     </body>
 
 </html>
