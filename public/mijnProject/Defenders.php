@@ -2,6 +2,7 @@
 error_reporting(E_ALL & ~E_NOTICE);
 require('php/database.php');
 require('Header.php');
+$database="project";
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
 if (!$DBverbinding) {
 }
@@ -10,12 +11,16 @@ else {
 $sql = "SELECT * FROM defenders";
 $records = mysqli_query($DBverbinding, $sql);
 $aantalOperators = mysqli_num_rows($records);
-if (isset($_GET["operator"]) && $_GET["operator"] <= $aantalOperators && $_GET["operator"] > 0) {
-    $operators = $_GET["operator"];
-}
-else {
+//if (isset($_GET["nr"]) && $_GET["nr"] <= $aantalOperators && $_GET["nr"] > 0) {
+//    $operators = $_GET["nr"];
+//}
+//else {
     $operators = 1;
-}
+//}
+
+$sql = "SELECT * FROM defenders WHERE icon = $operators";
+$record = mysqli_query($DBverbinding, $sql);
+$operatorData = mysqli_fetch_assoc($record);
 ?>
 
 <html>
@@ -30,7 +35,7 @@ else {
     <body style="background-color:rgb(67, 74, 84)">
         <div class="roster" id='roster' style='float:left;'>
         <ul>
-            <li><a href='Defenders.php'><img src='images/kapkan.png' height=100px width=100px></a>
+            <li><img src='images/kapkan.png' height=100px width=100px>
             <img src='images/tachanka.png' height=100px width=100px></li>
             <li><img src='images/bandit.png' height=100px width=100px>
             <img src='images/jager.png' height=100px width=100px></li>
@@ -61,6 +66,9 @@ else {
         </ul>    
         </div>
         <div style="width: 0px; border: 3px solid rgb(47, 54, 64);; border-radius: 50px; float:left; height:1450px; margin:10px; margin-top:15px"></div>
+        <div style="float:left">
+            <h1 class="display-4"><?= utf8_decode($operatorData['name']).' ('.$operatorData['icon'].'/'.$aantalOperators.')'?></h1>
+        </div>
     </body>
 
 </html>

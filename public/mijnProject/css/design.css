@@ -62,8 +62,6 @@ h1 {
 
 .Most {
   padding: 10px 16px;
-  background: rgb(67, 74, 84);
-  color: #f1f1f1;
 }
 
 #Most ul {
@@ -75,12 +73,22 @@ h1 {
 }
 
 #Most li {
-    font-size: 40px;
-    font-family: 'Roboto';
-    color:white
     padding-top: 20px;
     padding-left: 150px;
 }
-#Most li:first-child {
-    padding-left: 0px;
+
+.size {
+  display: flex;
+  list-style-type: none;
+  width: 10%;
+  max-width: 400px;
+  height: auto;
+}
+
+.popular {
+    flex-shrink: 0;
+}
+
+.popular ul {
+    list-style-type: none;
 }
