@@ -60,35 +60,12 @@ h1 {
     overflow:hidden;
 }
 
-.Most {
-  padding: 10px 16px;
-}
-
-#Most ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    font-size: 40px;
-    padding-left: 10px;
-}
-
-#Most li {
-    padding-top: 20px;
-    padding-left: 150px;
-}
-
 .size {
-  display: flex;
-  list-style-type: none;
-  width: 10%;
-  max-width: 400px;
-  height: auto;
+    width: 10%;
+    max-width: 400px;
+    height: auto;
 }
 
-.popular {
-    flex-shrink: 0;
-}
-
-.popular ul {
-    list-style-type: none;
+.popular li {
+    float: left;
 }
