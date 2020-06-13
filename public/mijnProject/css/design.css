@@ -69,3 +69,26 @@ h1 {
 .popular li {
     float: left;
 }
+
+.Roster {
+  padding: 10px 16px;
+  background: rgb(67, 74, 84);
+  color: #f1f1f1;
+}
+
+#Roster ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#lijn {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  border-radius: 50px;
+  width: 0px;
+  height: 2000px;
+  border: 3px solid white;
+  float:right;
+} 

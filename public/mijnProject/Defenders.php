@@ -26,7 +26,7 @@ $operatorData = mysqli_fetch_assoc($record);
 <html>
     <head>
         <title>Six-Info Defenders</title>
-        <link rel="stylesheet" type="text/css" href="css/Defenders.css">
+        <link rel="stylesheet" type="text/css" href="css/design.css">
         <!link rel="icon" src="images/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -80,7 +80,14 @@ $operatorData = mysqli_fetch_assoc($record);
         </div>
         <div style="width: 0px; border: 3px solid rgb(47, 54, 64);; border-radius: 50px; float:left; height:1450px; margin:10px; margin-top:15px"></div>
         <div style="float:left">
-            <h1 class="display-4"><?= utf8_decode($operatorData['name']).' ('.$operatorData['icon'].'/'.$aantalOperators.')'?></h1>
+            <h1 class="display-4"><?= utf8_decode($operatorData['name'])?></h1>
+            <h2><?= 'Ability: '.utf8_decode($operatorData['ability'])?></h2>
+            <h2><?= 'Primary weapons: '.utf8_decode($operatorData['primary weapons'])?></h2>
+            <h2><?= 'Secondary weapons: '.utf8_decode($operatorData['secondary weapons'])?></h2>
+            <h2><?= 'Gadgets: '.utf8_decode($operatorData['gadgets'])?></h2>
+            <h2><?= 'Speed/armor rating: '.utf8_decode($operatorData['speed/armor rating'])?></h2>
+            <h2><?= 'Difficulty: '.utf8_decode($operatorData['difficulty rating'])?></h2>
+            <h2><?= 'CTU (counter-terrorism unit): '.utf8_decode($operatorData['CTU'])?></h2>
         </div>
     </body>
 

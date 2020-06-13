@@ -19,11 +19,11 @@
     </head>
     <body>
         <ul class='popular'>
-            <li><a href="Defenders.php"><img src="images/jager.png" class='size'  width='150' height='150'></a></li>
-            <li><a href="Defenders.php"><img src="images/doc.png" class='size' width= '150' height= '150'></a></li>
-            <li><a href="Defenders.php"><img src="images/caveira.png" class='size' width='150' height='150'></a></li>
-            <li><a href="Attackers.php"><img src="images/jackal.png" class='size' width='150' height='150'></a></li>
-            <li><a href="Defenders.php"><img src="images/lesion.png" class='size' width='150' height='150'></a></li>
+            <li><a href="Defenders.php"><img src="images/jager.png" class="size" width=100px height=100px></a></li>
+            <li><a href="Defenders.php"><img src="images/doc.png" class="size" width=100px height=100px></a></li>
+            <li><a href="Defenders.php"><img src="images/caveira.png" class="size" width=100px height=100px></a></li>
+            <li><a href="Attackers.php"><img src="images/jackal.png" class="size" width=100px height=100px></a></li>
+            <li><a href="Defenders.php"><img src="images/lesion.png" class="size" width=100px height=100px></a></li>
         </ul>
     </body>
 </html>
