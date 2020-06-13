@@ -37,30 +37,43 @@ $operatorData = mysqli_fetch_assoc($record);
         <ul>
             <li><a href='Defenders.php/?nr=1'><img src='images/kapkan.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=2'><img src='images/tachanka.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=3'><img src='images/bandit.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=4'><img src='images/jager.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=5'><img src='images/rook.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=6'><img src='images/doc.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=7'><img src='images/pulse.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=8'><img src='images/castle.png' height=100px width=100px></li></a>
+
             <li><a href='Defenders.php/?nr=9'><img src='images/smoke.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=10'><img src='images/mute.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=11'><img src='images/frost.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=12'><img src='images/valkyrie.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=13'><img src='images/caveira.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=14'><img src='images/echo.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=15'><img src='images/mira.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=16'><img src='images/lesion.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=17'><img src='images/ela.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=18'><img src='images/vigil.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=19'><img src='images/alibi.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=20'><img src='images/maestro.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=21'><img src='images/clash.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=22'><img src='images/kaid.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=23'><img src='images/mozzie.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=24'><img src='images/warden.png' height=100px width=100px></a></li>
+
             <li><a href='Defenders.php/?nr=25'><img src='images/goyo.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=26'><img src='images/wamai.png' height=100px width=100px></a></li>
+            
             <li><a href='Defenders.php/?nr=27'><img src='images/oryx.png' height=100px width=100px></a>
             <a href='Defenders.php/?nr=28'><img src='images/melusi.png' height=100px width=100px></a></li>
         </ul>    
