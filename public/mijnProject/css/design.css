@@ -98,10 +98,14 @@ h1 {
   color: #f1f1f1;
 }
 
-#Roster ul {
+.Roster ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 5px;
+    padding-left: 0px;
+}
+
+.Roster li {
+    padding-right: 100px;
 }
 
 #lijn {
