@@ -60,7 +60,7 @@ h1 {
     overflow:hidden;
 }
 
-.popular {
+.popular_d {
     margin: 0;
     padding: 0;
     display: flex;
@@ -68,11 +68,27 @@ h1 {
     overflow: hidden;
 }
 
-.popular li{
+.popular_d li{
     padding-left: 5%;
 }
 
-.popular li:first-child{
+.popular_d li:first-child{
+    padding-left: 1%;
+}
+
+.popular_a {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.popular_a li{
+    padding-left: 5%;
+}
+
+.popular_a li:first-child{
     padding-left: 1%;
 }
 
@@ -135,4 +151,12 @@ a:link {
     font-size: 35px;
     text-align: center;
     margin-top: 5%;
+}
+
+.MPD {
+    margin-left: 1.5%;
+}
+
+.MPA {
+    margin-left: 1.5%;
 }
