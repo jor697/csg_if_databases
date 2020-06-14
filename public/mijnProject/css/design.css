@@ -104,10 +104,6 @@ h1 {
     padding-left: 0px;
 }
 
-.Roster li {
-    padding-right: 100px;
-}
-
 #lijn {
   margin: 0;
   padding: 0;
@@ -163,4 +159,24 @@ a:link {
 
 .MPA {
     margin-left: 1.5%;
+}
+
+.info {
+    font-family: 'Roboto';
+    margin-top: 150px;
+    margin-left: 2%;
+}
+
+.info li{
+    list-style-type: none;
+}
+
+.ON {
+    float:left;
+}
+
+.naam {
+    font-size: 50px;
+    margin-top: 83px;
+    margin-left: 225px;
 }
