@@ -2,6 +2,7 @@
 error_reporting(E_ALL & ~E_NOTICE);
 require('php/database.php');
 require('Header.php');
+require('Head.php');
 $database="project";
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
 if (!$DBverbinding) {
@@ -24,14 +25,6 @@ $operatorData = mysqli_fetch_assoc($record);
 ?>
 
 <html>
-    <head>
-        <title>Six-Info Defenders</title>
-        <link rel="stylesheet" type="text/css" href="css/design.css">
-        <!link rel="icon" src="images/favicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    </head>
-
     <body style="background-color:rgb(67, 74, 84)">
         <div class="roster" id='roster' style='float:left;'>
         <ul>
