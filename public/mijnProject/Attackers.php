@@ -1,8 +1,8 @@
 <?php
 error_reporting(E_ALL & ~E_NOTICE);
 require('php/database.php');
-require('Header.php');
 require('Head.php');
+require('Header.php');
 $database="project";
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
 if (!$DBverbinding) {

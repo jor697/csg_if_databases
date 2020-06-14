@@ -60,14 +60,20 @@ h1 {
     overflow:hidden;
 }
 
-.size {
-    width: 10%;
-    max-width: 400px;
-    height: auto;
+.popular {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
 }
 
-.popular li {
-    float: left;
+.popular li{
+    padding-left: 5%;
+}
+
+.popular li:first-child{
+    padding-left: 1%;
 }
 
 .Roster {
@@ -92,3 +98,41 @@ h1 {
   border: 3px solid white;
   float:right;
 } 
+
+a:link {
+    text-decoration: none;
+}
+
+.Attackers {
+    margin-top: 10%;
+    margin-left: 10%;
+    vertical-align: middle;
+    line-height: 50%;
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    width: 30%;
+    height: 15%;
+    border: 10px solid rgb(47, 54, 64);
+    border-radius: 20px;
+}
+
+.Defenders {
+    margin-top: 10%;
+    margin-right: 10%;
+    vertical-align: middle;
+    line-height: 50%;
+    float: right;
+    text-align: center;
+    font-size: 45px;
+    width: 30%;
+    height: 15%;
+    border: 10px solid rgb(47, 54, 64);
+    border-radius: 20px;
+}
+
+.Choose {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+}
