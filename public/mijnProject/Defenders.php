@@ -80,7 +80,8 @@ $operatorData = mysqli_fetch_assoc($record);
         </div>
         <div style="width: 0px; border: 3px solid rgb(47, 54, 64);; border-radius: 50px; float:left; height:1450px; margin:10px; margin-top:15px"></div>
         <div style="float:left">
-            <h1 class="display-4"><?= utf8_decode($operatorData['name'])?></h1>
+            <img src='images/defense/<?= $operators?>.png' height=200px width=200px>
+            <h1><?= utf8_decode($operatorData['name'])?></h1>
             <h2><?= 'Ability: '.utf8_decode($operatorData['ability'])?></h2>
             <h2><?= 'Primary weapons: '.utf8_decode($operatorData['primary weapons'])?></h2>
             <h2><?= 'Secondary weapons: '.utf8_decode($operatorData['secondary weapons'])?></h2>
