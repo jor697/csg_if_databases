@@ -163,12 +163,14 @@ a:link {
 
 .info {
     font-family: 'Roboto';
-    margin-top: 150px;
     margin-left: 2%;
+    width: 1000px;
+    padding-left: 200px;
 }
 
 .info li{
     list-style-type: none;
+    padding-bottom: 10px;
 }
 
 .ON {

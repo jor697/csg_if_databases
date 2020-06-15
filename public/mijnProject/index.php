@@ -14,6 +14,3 @@ require('Header.php');
         <?php require('Most_a.php');?>
     </body>
 </html>
-<?php
-require('Footer.php');
-?>
