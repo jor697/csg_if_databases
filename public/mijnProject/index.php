@@ -8,9 +8,13 @@ require('Header.php');
         <div class="plaatje">
             <a href='Choose.php'><img class='center-fit' src='images/R6S.png' width=100%  height= auto></a>
         </div>
-        <div class='MPD'><h1>Most popular defenders</h1></div>
+        <div class='MPD'>
+            <h1>Most popular defenders</h1>
+        </div>
         <?php require('Most_d.php');?>
-        <div class='MPA'><h1>Most popular attackers</h1></div>
+        <div class='MPA'>
+            <h1>Most popular attackers</h1>
+        </div>
         <?php require('Most_a.php');?>
     </body>
 </html>
